@@ -1,7 +1,6 @@
 # AIGoBang
 
-請修改 template.py 中的 user function，不要修改其中的 main function
-若要測試執行，請修改 game_set.py 中的設定，然後跑main.py
+AIGoBang is a 5 hours course in NTNUCSIE CAMP2022. This course is designed for beginners, and they can learn basic skills from designing the gobang gaming agent with Python.
 
 ## Install
 ```
