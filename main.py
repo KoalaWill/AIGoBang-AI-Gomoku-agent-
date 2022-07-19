@@ -379,8 +379,8 @@ def main():
                 my_list = []
                 
                 try:
-                    # result = check_output(f'python3 {sys.path[0]}/{team_path}', shell=True, input= str(str(board._board)+', '+str(color)),encoding='ascii',timeout=3).split()
-                    process = subprocess.Popen(f'python3 {sys.path[0]}/{team_path}', shell=True,encoding='utf8',stdin= subprocess.PIPE, stdout=subprocess.PIPE)
+                    # result = check_output(f'python {sys.path[0]}/{team_path}', shell=True, input= str(str(board._board)+', '+str(color)),encoding='ascii',timeout=3).split()
+                    process = subprocess.Popen(f'python {sys.path[0]}/{team_path}', shell=True,encoding='utf8',stdin= subprocess.PIPE, stdout=subprocess.PIPE)
                     
                     timer_thread = Thread(target=timer,args =(lambda : stop_threads,board.remain_time[team_idx],my_list,board,is_black,process ))
                     timer_thread.start()
@@ -464,8 +464,8 @@ def main():
                     que = Queue()
                     my_list = []
                     try:
-                        # result = check_output(f'python3 {sys.path[0]}/{team_path}', shell=True, input= str(str(board._board)+', '+str(color)),encoding='ascii',timeout=3).split()
-                        process = subprocess.Popen(f'python3 {sys.path[0]}/{team_path}', shell=True,encoding='utf8',stdin= subprocess.PIPE, stdout=subprocess.PIPE)
+                        # result = check_output(f'python {sys.path[0]}/{team_path}', shell=True, input= str(str(board._board)+', '+str(color)),encoding='ascii',timeout=3).split()
+                        process = subprocess.Popen(f'python {sys.path[0]}/{team_path}', shell=True,encoding='utf8',stdin= subprocess.PIPE, stdout=subprocess.PIPE)
                         
                         timer_thread = Thread(target=timer,args =(lambda : stop_threads,board.remain_time[team_idx],my_list,board,is_black,process ))
                         timer_thread.start()

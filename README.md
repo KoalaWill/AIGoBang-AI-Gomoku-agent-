@@ -8,13 +8,13 @@ pip3 install pygame
 ```
 for Windows, it's recommended to
 ```
-python3 -m pip install pygame
+python -m pip install pygame
 ```
 ## Eessential Code:
 https://github.com/howard9199/AIGoBang
 ## Pre-install:
 VSCode  
-Python3  
+python  
 Live Share VSCode Extension (for NTNUCSIE Camp only)  
 pip3 install pygame
 ## Intro
@@ -24,8 +24,8 @@ Template: `template.py`
 Useful functions: `simplelib.py`(DO NOT EDIT)  
 Constant: `variables.py`(DO NOT EDIT)  
 ## Execute
-Please set up `game_set.py`, and run `python3 main.py`  
-WARNING! The competition system can't execute your code if python3 not installed
+Please set up `game_set.py`, and run `python main.py`  
+WARNING! The competition system can't execute your code if python not installed
 ## Feature
 1. Mouse vs Computer test mode(mode=2)
 2. Competition mode(mode=3)
