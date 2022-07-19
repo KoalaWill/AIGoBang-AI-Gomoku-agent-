@@ -14,8 +14,8 @@ requirement:
 
 請輸入你的程式的路徑，其中檔名的部分會成為隊名
 '''
-team_a_path = 'WonderFour.py'
-team_b_path = 'WonderFour.py'
+team_a_path = 'Wonder_4.py'
+team_b_path = 'Wonder_4.py'
 
 '''
 time delay between each step (unit: ms)
