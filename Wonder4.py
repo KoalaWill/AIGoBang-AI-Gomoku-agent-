@@ -64,7 +64,7 @@ def user(board,myStone,remain_time):
             t2=0
           scorelist[q][i][j] += t1+t2
           
-        score2=max(scorelist[0][i][j],scorelist[1][i][j],scorelist[2][i][j],scorelist[3][i][j])
+        score2=max(scorelist[0][i][j],scorelist[1][i][j],scorelist[2][i][j],scorelist[3][i][j])*1.1
         score[i][j]=max(score1,score2)
         board[i][j] = EMPTY # 試完了，拿起來
   
