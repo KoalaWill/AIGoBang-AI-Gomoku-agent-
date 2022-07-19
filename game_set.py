@@ -33,4 +33,4 @@ set_delay = 2000
 some reality sound effect
 擬真音效，我知道你用學校電腦聽不到
 '''
-sound_activate = False
+sound_activate = True
