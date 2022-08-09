@@ -1,9 +1,9 @@
 title: 測試模式 Test Mode
 teams:
-    Team A:
+    KoalaWill's agent:
         source: "Wonder4.py"
         color: "#1d4ed8"
-    Team B:
+    Player:
         source: ""
         color: "#e11d48"
 delay:
