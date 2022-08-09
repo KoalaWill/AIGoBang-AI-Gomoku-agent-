@@ -1,8 +1,8 @@
 import sys
 sys.path.append(f'{sys.path[0]}/..')
 from simplelib import *
-from variables import *
 import re
+[BOARDSIZE, EMPTY, BLACK, WHITE] = [15, 0, 1 ,2]
 
 '''
 user:
